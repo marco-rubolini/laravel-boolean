@@ -10,9 +10,10 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="text-center">Chi siamo</h1>
-                    <p>Ciao {{ $nome }}</p>
+                    
                 </div>
             </div>
         </div>
+        <script src="{{ asset('js/app.js')}}" charset="utf-8"></script>
     </body>
 </html>

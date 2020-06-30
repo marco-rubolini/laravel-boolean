@@ -1,0 +1,50 @@
+footer {
+    background: #1b3c59;
+    color: white;
+
+    img {
+        width: 200px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin-bottom: 0;
+    }
+    .footer-head-left {
+        p {
+            margin: 0;
+        }
+    }
+
+    a {
+        color: white;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.footer-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #fff;
+
+}
+
+.loghi-social {
+    a i {
+        margin: 30px 20px;
+        font-size: 35px;
+        color: white;
+
+        &:hover {
+            color: #61ce4e;
+        }
+    }
+
+    a {
+        color: white;
+    }
+}
