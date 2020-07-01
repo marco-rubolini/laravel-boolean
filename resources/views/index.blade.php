@@ -1,4 +1,4 @@
-@extends('layouts.app');
+@extends('layouts.app')
 @section('content')
     <section id="jumbotron-boolean">
         <div class="jumbotron">
