@@ -149,3 +149,5 @@ I dati sono inoltre protetti mediante misure tecniche ed organizzative per assic
         </div>
     </div>
 @endsection
+
+@section('page-title', 'Privacy Policy')

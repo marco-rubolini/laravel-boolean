@@ -11,7 +11,7 @@
                     <p>Tel: 02-40031288</p>
                 </div>
             </div>
-            <div class="footer-right">
+            <div class="footer-head-right">
                 <ul>
                     <li>
                         <a href="#">Lezione gratuita</a>
@@ -28,7 +28,6 @@
                 </ul>
             </div>
         </div>
-
         <div class="footer-bottom text-center">
             <div class="loghi-social">
                 <a href="#"><i class="fab fa-instagram"></i></a>
@@ -41,5 +40,4 @@
             </div>
         </div>
     </div>
-
 </footer>

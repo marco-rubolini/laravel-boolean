@@ -1,53 +1,69 @@
 footer {
-    background: #1b3c59;
-    color: white;
+    background: $background_color_primary;
+    color: $color_text_secondary;
     padding: $padding_section_standard;
 
-    img {
-        width: 200px;
-    }
+    .footer-head {
 
-    ul {
-        list-style-type: none;
-        margin-bottom: 0;
-    }
-    .footer-head-left {
-        p {
-            margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 20px;
+
+        .footer-head-left {
+
+            .logo {
+
+                img {
+                    width: 200px;
+                }
+            }
+
+            .footer-left-contact {
+
+                p {
+                    margin: 0;
+                }
+            }
+        }
+
+        .footer-head-right {
+
+            ul {
+                list-style-type: none;
+                margin-bottom: 0;
+
+                li {
+                    a {
+                        color: white;
+                        font-size: 20px;
+
+                        &:hover {
+                            color: white;
+                        }
+                    }
+                }
+            }
         }
     }
 
-    a {
-        color: white;
-        font-size: 20px;
+    .footer-bottom {
 
-        &:hover {
-            color: white;
+        .loghi-social {
+            a {
+                color: white;
+
+                i {
+                    margin: 30px 20px;
+                    font-size: 35px;
+                    color: white;
+
+                    &:hover {
+                        color: $background_cta_color;
+                    }
+                }
+            }
         }
-    }
-}
-
-.footer-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 20px;
-
-}
-
-.loghi-social {
-    a i {
-        margin: 30px 20px;
-        font-size: 35px;
-        color: white;
-
-        &:hover {
-            color: #61ce4e;
-        }
-    }
-
-    a {
-        color: white;
     }
 }
