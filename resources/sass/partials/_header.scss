@@ -1,29 +1,28 @@
 header {
+
     .nav-item:hover {
             border-bottom: 2px solid #61ce4e;
+    }
+
+    margin-top: 106px;
+
+    a {
+        color: $color_text_primary !important;
     }
 }
 .nav-item.active {
     border-bottom: 2px solid #61ce4e;
 }
 
-.boolean_navbar {
-    height: 90px;
-    overflow: hidden;
-    padding: 10px 0;
-}
 
 .boolean_navbar_logo {
-    height: 100%;
+    height: 90px;
 
     img {
         height: 100%;
     }
 }
 
-.menu-nav {
-    justify-content: flex-end;
-}
 
 .navbar-nav {
     li {
@@ -39,4 +38,8 @@ header {
     border-radius: 5px;
     text-transform: uppercase;
     }
+}
+
+.white {
+    color: white !important;
 }

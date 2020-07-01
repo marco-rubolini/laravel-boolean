@@ -16074,29 +16074,33 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
+body {
+  color: #1b3c59;
+}
+
+.fab {
+  font-size: 35px;
+}
+
+header {
+  margin-top: 106px;
+}
 header .nav-item:hover {
   border-bottom: 2px solid #61ce4e;
+}
+header a {
+  color: #1b3c59 !important;
 }
 
 .nav-item.active {
   border-bottom: 2px solid #61ce4e;
 }
 
-.boolean_navbar {
-  height: 90px;
-  overflow: hidden;
-  padding: 10px 0;
-}
-
 .boolean_navbar_logo {
-  height: 100%;
+  height: 90px;
 }
 .boolean_navbar_logo img {
   height: 100%;
-}
-
-.menu-nav {
-  justify-content: flex-end;
 }
 
 .navbar-nav li {
@@ -16112,57 +16116,8 @@ header .nav-item:hover {
   text-transform: uppercase;
 }
 
-footer {
-  background: #1b3c59;
-  color: white;
-}
-footer img {
-  width: 200px;
-}
-footer ul {
-  list-style-type: none;
-  margin-bottom: 0;
-}
-footer .footer-head-left p {
-  margin: 0;
-}
-footer a {
-  color: white;
-}
-footer a:hover {
-  color: white;
-}
-
-.footer-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  border-bottom: 1px solid #fff;
-}
-
-.loghi-social a i {
-  margin: 30px 20px;
-  font-size: 35px;
-  color: white;
-}
-.loghi-social a i:hover {
-  color: #61ce4e;
-}
-.loghi-social a {
-  color: white;
-}
-
-.fab {
-  font-size: 35px;
-}
-
-.lozad {
-  max-width: 90%;
-  margin: 0 auto;
-}
-
-.jumbotron {
-  background: white;
+.white {
+  color: white !important;
 }
 
 .loghi-left {
@@ -16177,6 +16132,15 @@ footer a:hover {
   justify-content: flex-end;
 }
 
+.lozad {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  background: white;
+}
+
 h4 {
   color: #8e8e8e;
   font-weight: 400;
@@ -16185,5 +16149,53 @@ h4 {
 
 #boolean-data {
   background-color: #1b3c59;
+  color: white;
+  padding: 30px 0;
+}
+#boolean-data h3 {
+  font-size: 49.5px;
+  font-weight: 400;
+}
+
+footer {
+  background: #1b3c59;
+  color: white;
+  padding: 30px 0;
+}
+footer img {
+  width: 200px;
+}
+footer ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+footer .footer-head-left p {
+  margin: 0;
+}
+footer a {
+  color: white;
+  font-size: 20px;
+}
+footer a:hover {
+  color: white;
+}
+
+.footer-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+}
+
+.loghi-social a i {
+  margin: 30px 20px;
+  font-size: 35px;
+  color: white;
+}
+.loghi-social a i:hover {
+  color: #61ce4e;
+}
+.loghi-social a {
   color: white;
 }

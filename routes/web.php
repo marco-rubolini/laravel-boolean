@@ -17,10 +17,10 @@ Route::get('/', function () {
     return view('index');
 })->name('homepage');
 
-Route::get('/chi-siamo', function () {
-    return view('about');
-});
-
 Route::get('/privacy-policy', function () {
     return view('privacy');
 })->name('privacy');
+
+Route::get('/faq', function () {
+    return view('faq');
+})->name('faq');

@@ -4,7 +4,7 @@
         <div class="jumbotron">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm-6 col-12">
                         <h1 class="display-4 text-uppercase">Diventa
                             <strong>sviluppatore web</strong>
                         </h1>
@@ -15,7 +15,7 @@
                             <li>Siamo certi del tuo successo, altrimenti <strong>ti rimborsiamo</strong></li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-6 col-12">
                         <img class="lozad" data-src="https://www.boolean.careers/images/homepage/pc-black-gif.gif" alt="Impara da casa tua" src="https://www.boolean.careers/images/homepage/pc-black-gif.gif" data-loaded="true">
                     </div>
                 </div>
@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col">
-                    <h3>98%</h3>
+                    <h3 class="max-title">98%</h3>
                     <p>La percentuale dei nostri studenti che ora lavora come web developer, oltre la metà a tempo indeterminato.</p>
                 </div>
                 <div class="col">
@@ -40,7 +40,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="partner">
         <div class="container">
             <h4>I nostri studenti sono stati assunti da:</h4>
             <div class="loghi-left">

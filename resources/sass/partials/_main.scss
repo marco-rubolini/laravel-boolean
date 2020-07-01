@@ -1,0 +1,39 @@
+.loghi-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.loghi-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+
+.lozad {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    background: white;
+}
+
+h4 {
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+#boolean-data {
+    background-color: #1b3c59;
+    color: white;
+    padding: $padding_section_standard;
+
+    h3 {
+        font-size: 49.5px;
+        font-weight: 400;
+    }
+}
